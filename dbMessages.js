@@ -1,5 +1,6 @@
 // import mongoose from "mongoose";
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
+import mongoose from "mongoose";
 const roomRequestsTableName = 'roomrequests';
 const roomRoomContentTableTableName = 'roomcontents';
 const whatsMessageContentSchema = mongoose.Schema({

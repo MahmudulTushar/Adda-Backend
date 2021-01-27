@@ -1,7 +1,11 @@
-const express = require('express');
-const mongoose = require('mongoose');
+import express from "express";
+import mongoose from "mongoose";
+import WhatsAppTable from "./dbMessages.js";
+
+// const express = require('express');
+// const mongoose = require('mongoose');
 let ObjectId = require('mongodb').ObjectID;
-const WhatsAppTable = require('./dbMessages.js');
+// const WhatsAppTable = require('./dbMessages.js');
 const Message = WhatsAppTable.MessageContentTable;
 const RoomContentTable = WhatsAppTable.RoomContentTable;
 const RoomRequestTable = WhatsAppTable.RoomRequestTable;
