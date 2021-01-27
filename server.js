@@ -80,6 +80,11 @@ db.once('open', () =>{
   })
 })
 
+app.get('/',(req, res) =>{
+    res.status(200).send('Hello World');
+})
+
+
 app.get('/messages/sync',(req, res) =>{
   Message.find((err, data) =>{
     if (err){
