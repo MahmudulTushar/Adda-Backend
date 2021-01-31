@@ -1,4 +1,3 @@
-
 const express = require('express');
 const messagesRoutes = require('./routes/messagesRoutes');
 const roomsRoutes = require('./routes/roomsRoutes');
